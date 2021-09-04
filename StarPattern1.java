@@ -1,0 +1,37 @@
+public class StarPattern1
+{          static int i,j;
+	 public static void main(String[] args)
+	 {
+		 System.out.println("\nThis is the star pattern program...\n");        //like this
+                                                                                 /*   *
+                                                                                      **   
+                                                                                      *** 
+                                                                                      ****
+                                                                                      *****   */    
+		 for(i=1;i<=5;i++)
+		 {
+			  for(j=1;j<=i;j++)
+				  
+				  { 
+				      System.out.print("*");
+				  }
+				  System.out.println();
+		 }
+                          System.out.println("\nThis is reverse for above star program...\n");      //like this
+                                                                                               /*  *****
+                                                                                                   ****
+                                                                                                   ***
+                                                                                                   **
+                                                                                                   *   */   
+                         for(i=1;i<=5;i++)
+                            { 
+                                 for(j=5;j>=i;j--)
+                                   {
+                                           System.out.print("*");
+                                   }
+                                     System.out.println();
+                }
+  
+	       }
+              }
+	 
