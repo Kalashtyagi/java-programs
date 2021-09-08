@@ -5,7 +5,7 @@ public class StarPattern8
 		 
 	      System.out.println(" \nProgram of simple java pattern \n ______________________________\n");
 	          //print  opposite Pyramid  pattern like this.....
-	        /*                  * * * * *
+	        /*            * * * * *
                                * * * *
                                 * * *
                                  * *
