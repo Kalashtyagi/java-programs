@@ -1,0 +1,30 @@
+public class StarPattern8
+{
+	 public static void main(String[] args)
+	 { 
+		 
+	      System.out.println(" \nProgram of simple java pattern \n ______________________________\n");
+	          //print  opposite Pyramid  pattern like this.....
+	        /*                  * * * * *
+                               * * * *
+                                * * *
+                                 * *
+                                  *
+                           
+                                           */
+		 for(int i=1;i<=5;i++)
+			 {
+			    for( int j=1;j<=i;j++)
+			    {
+			    	System.out.print(" "); 
+			    }
+			    for(int k=5;k>=i;k--)
+			    {
+			    	 System.out.print(" *");
+			    }
+			    System.out.println();
+			 }
+	 }}
+
+                                  
+		 
