@@ -55,7 +55,6 @@ class OnlineTest extends JFrame implements ActionListener {
     }
 
     //override actionPerformed method and  handle all actions performed by user.
-    //override all the
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btnNext) {
             if (check())
